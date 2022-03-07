@@ -1,7 +1,21 @@
-.flexbox {
-    display: flexbox;
+#container {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.blockbox {
-    display: flexbox;
+.flexdiv{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1 1 160px;
+
+    
 }
