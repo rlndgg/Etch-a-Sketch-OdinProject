@@ -14,3 +14,17 @@ for (let i = 0; i < 16 ; i++) {
     container.appendChild(content);
 }
 
+const containers = document.querySelectorAll('.flexdiv');
+
+containers.forEach( (container) => {
+
+    container.addEventListener('mouseover', () => {
+
+        container.classList.add('mouseoverdiv');   
+    });
+
+    container.addEventListener('mouseout', () => {
+
+        container.classList.remove('mouseoverdiv');   
+    });
+});
